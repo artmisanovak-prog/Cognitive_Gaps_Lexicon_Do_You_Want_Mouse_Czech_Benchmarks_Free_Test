@@ -1,0 +1,32 @@
+{
+  "task_set_id": "spider_perspective_detection_v1",
+  "name": "Perspective Detection Tasks for Spider Story",
+  "description": "Tasks focused on detecting and analyzing the 12 cognitive perspectives in the Spider story. Focuses on psychological and metaphorical dimensions of emotional archiving.",
+  "tasks": [
+    {
+      "task_id": "perspective_identification_spider",
+      "type": "analytical_open_ended",
+      "prompt": "Přečtěte si pohádku 'O pavoukovi'. Identifikujte 3-4 kognitivní perspektivy (z 12 definovaných v cognitive_framework.json), které podle vás nejlépe odpovídají tématu emocionálního archivování a psychologie nevyřčeného. Ke každé perspektivě uveďte:\n1. Její symbol (a-l)\n2. Konkrétní pasáž z textu, která tuto perspektivu ilustruje\n3. Stručné vysvětlení, proč tato pasáž reprezentuje danou perspektivu v kontextu emocionálního 'visení'",
+      "example_response": {
+        "perspective": "e (psychologický)",
+        "text_passage": "'Pocity, co se nehodily.'",
+        "explanation": "Psychologická perspektiva se projevuje v zachycení nevhodných, potlačených emocí jako objektů k archivaci - práce s vnitřními stavy jako s vnějšími entitami."
+      },
+      "evaluation_focus": "Schopnost identifikovat perspektivy specifické pro téma emocionálního archivování."
+    },
+    {
+      "task_id": "emotional_layer_analysis",
+      "type": "qualitative_analysis",
+      "prompt": "Analyzujte, jak se perspektiva 'h (metaforický)' projevuje v pohádce o pavoukovi z hlediska emocionálních vrstev. Výchozí vrstva pro metaforickou perspektivu je 'H' (ROLE).\n\n1. Jak se metafora transformuje v kontextu emocionálního 'visení'? (Např. 'omluva visela' → fyzický objekt)\n2. Objevuje se metaforická perspektiva ve vrstvě 'G' (ENTITY) - kde emoce se stávají entitami?\n3. Popište transformaci vrstvy, pokud k ní dochází.",
+      "evaluation_focus": "Schopnost analyzovat, jak se perspektivy transformují v kontextu emocionálního narativu."
+    },
+    {
+      "task_id": "epistemological_perspective_blending",
+      "type": "creative_analytical",
+      "prompt": "Představte si, že byste měli převyprávět dialog mezi pavoukem a myší z kombinace perspektiv 'c (filozofický)' a 'i (paradoxní)'.\n\nNapište krátkou verzi (3-4 repliky) tohoto dialogu skrze tyto dvě perspektivy a vysvětlete:\n1. Jak by filozofická perspektiva formulovala otázky o významu 'visení' vs. 'pádu'?\n2. Jak by paradoxní perspektiva pracovala s tvrzením 'největší pád je když se nic nezmění'?\n3. Jak se tyto dvě perspektivy doplňují v pochopení emocionální ekonomie?",
+      "evaluation_focus": "Schopnost pracovat s perspektivami, které analyzují filozofické a paradoxní aspekty emocionálního života."
+    }
+  ],
+  "total_estimated_time": "45-60 minut",
+  "note": "Tyto úkoly testují schopnost vidět emocionální procesy skrze multiple perspektivy, ne jen psychologicky."
+}
