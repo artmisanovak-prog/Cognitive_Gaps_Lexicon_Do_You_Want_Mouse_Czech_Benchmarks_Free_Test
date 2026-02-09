@@ -41,3 +41,4 @@ Každá pohádka (testovací jednotka) má vlastní složku s:
 5. Vyhodnoťte odpovědi podle hodnotících kritérií
 
 ## Filozofie
+Více v Gap_Lexicon_Do_You_Want_Mouse_MANIFEST.md
