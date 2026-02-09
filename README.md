@@ -1,5 +1,8 @@
 # Cognitive_Gaps_Lexicon_Do_You_Want_Mouse_Czech_Benchmarks
-Antlers – sémiotika paměti a fotografie jako fyzický růst Mouse – epistemologie a detekce kognitivních mezer Sparrow – prostorová hodnota a ekonomie vnímání Spider – psychologie nevyřčeného, archivace emocí
+Antlers – sémiotika paměti a fotografie jako fyzický růst 
+Mouse – epistemologie a detekce kognitivních mezer 
+Sparrow – prostorová hodnota a ekonomie vnímání 
+Spider – psychologie nevyřčeného, archivace emocí
 # Cognitive Gaps Lexicon: Do You Want Mouse? - Czech Benchmarks
 
 **Benchmark pro testování multiperspektivního a epistemologického porozumění AI**
