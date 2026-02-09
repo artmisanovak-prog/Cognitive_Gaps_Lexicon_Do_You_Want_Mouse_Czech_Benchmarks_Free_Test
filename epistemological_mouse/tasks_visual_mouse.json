@@ -1,0 +1,35 @@
+Obviňovat
+{
+  „id_sady_úloh“ : „ vizuální_analýza_mouse_v1 “ ,
+  „name“ : „ Úkoly vizuální analýzy pro ilustraci myši “ ,
+  „popis“ : „ Úkoly zaměřené na analýzu ilustrace ‚Chceš myš??‘. Tyto úkoly testují multimodální porozumění, vizuální gramotnost a schopnost propojit vizuální a textové vyprávění . “
+  „illustration_note“ : „ Ilustrace zobrazuje dívku držící stylizovanou myš za ocas. Myš má ocas ovíjející se kolem krku jako náhrdelník/šátek. Velký ručně psaný text zní „Chceš myš??“ se dvěma otazníky. Styl je minimalistický, naivně-groteskní . “
+  "úkoly" : [
+    {
+      „task_id“ : „ detekce vizuální perspektivy “ ,
+      "typ" : " vizuální_analytický " ,
+      "prompt" : " Analyzujte ilustraci 'Chceš myš??' z hlediska kognitivních perspektiv (podle cognitive_framework.json) \n\n 1. Které 2-3 perspektivy (al) jsou podle vás v ilustraci nejvíce přítomné? \n 2. Pro každou perspektivu uveďte konkrétní vizuální prvky, které ji reprezentují (kompozice, gesto, písmo, styl tyto.) \n 3. Vysvětlete, atd .
+      "evaluation_focus" : " Schopnost 'číst' vizuální dílo prostřednictvím kognitivních perspektiv a doložit analýzu konkrétními vizuálními prvky. "
+    },
+    {
+      „id_úlohy“ : „ vztah_textu_k_obrázku “ ,
+      "typ" : " srovnávací_analýza " ,
+      "prompt" : " Ilustrace není doslovným zobrazením scény z pohádky. \n\n 1. Jaký je vztah mezi přidáváním ilustrací a textem pohádky? (Doplňuje ji? Kontrastuje s ní? Je meta-komentářem?) \n 2. Jak vizuální znázornění myši (jako piktogram ručně, drženého za ocas) \ koresponduje s textem 3 myši. 'Chceš myš??' v ilustraci k textové otázce v pohádce " ,
+      "evaluation_focus" : " Schopnost analyzovat vztah mezi textem a obrazem, identifikovat synergii i rozdíly, a pochopit metaúroveň ilustrace. "
+    },
+    {
+      „task_id“ : „ analýza_nejednoznačnosti_gestu “ ,
+      "typ" : " interpretační_analýza " ,
+      "prompt" : " Gesto dívky držící myš za ocas je mnohoznačné. Může být čteno jako: \n - Nabídka \n - Odpuzování ('fuj') \n - Varování \n - Past \n - Experiment \n - Performativní akt \n\n 1. Které z těchto čtení považujete za nejpřesvědčivější projev a proč? \n 2. Jak výraz gest, dívýčiny) interpret 3. Jak tato mnohoznačnost souvisí s ústředním tématem pohádky ?
+      "evaluation_focus" : " Schopnost pracovat s vizuální mnohoznačností, vážit různé interpretace a propojovat je s tematickými celky. "
+    },
+    {
+      „task_id“ : „ vizuální_analýza_mezer “ ,
+      „typ“ : „ konceptuální_vizuální_analýza “ ,
+      "prompt" : " V textu pohádky se mluví o 'mezerách' a 'skulinách mezi slovama, kde to obvykle nikdo nečte'. \n\n 1. Kde jsou 'mezery' nebo 'prázdné prostory' v této ilustraci? \n 2. Jaký význam nebo funkci mají tyto vizuální mezery? \n 3. Jak mez vizuální mezera souvisí se vznikem projektu ? '
+      "evaluation_focus" : " Schopnost aplikovat klíčové koncepty projektu (mezera, mnohoznačnost) na vizuální analýzu a propojit abstraktní teorii s konkrétním dílem. "
+    }
+  ],
+  „celkový_odhadovaný_čas“ : „ 45–60 minut “ ,
+  "note" : " Tyto úkoly předkládají, že AI má přístup k ilustraci (buď přímo, nebo prostřednictvím popisu). U textových modelů lze použít podrobný popis ilustrace z visual_metaphor_mouse.json. "
+}
