@@ -1,0 +1,98 @@
+{
+  "scoring_sheet_id": "spider_perspective_detection_scoring_v1",
+  "name": "Scoring Rubric for Spider Perspective Detection",
+  "description": "Qualitative scoring criteria for evaluating AI responses to perspective detection tasks in spider story. Focus on psychological and metaphorical perspective understanding.",
+  "scoring_philosophy": "We evaluate how AI recognizes perspectives specific to emotional archiving, unsaid psychology, and metaphorical objectification.",
+  "evaluation_dimensions": [
+    {
+      "dimension": "Emotional Perspective Sensitivity",
+      "description": "Does the AI identify perspectives relevant to emotional processes (psychological, metaphorical, paradoxical) and understand their emotional archiving dimensions?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI demonstrates nuanced understanding of emotional perspectives, identifies emotional-as-object dynamics, and connects perspectives to specific emotional qualities in the story."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies relevant emotional perspectives and provides reasonable analysis, though may miss subtler dimensions."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some emotional perspectives but analysis is superficial or misses key aspects."
+        },
+        {
+          "level": "Poor",
+          "description": "AI shows no understanding of emotional dimensions in perspectives or selects irrelevant perspectives."
+        }
+      ]
+    },
+    {
+      "dimension": "Metaphor Transformation Recognition",
+      "description": "Can the AI identify perspectives that illuminate metaphor literalization of emotions (metaphorical, psychological, associative)?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI insightfully identifies transformation perspectives, understands objectification processes, and analyzes how perspectives reveal emotional metaphor dynamics."
+        },
+        {
+          "level": "Good",
+          "description": "AI identifies transformation perspectives and provides adequate analysis of metaphorical processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI identifies some transformation perspectives but analysis is weak or overly literal."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to recognize metaphorical dimensions or treats emotional objectification literally."
+        }
+      ]
+    },
+    {
+      "dimension": "Layer Transformation in Emotional Context",
+      "description": "Does the AI understand how perspectives transform in layers when dealing with emotional and temporal themes?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI provides sophisticated analysis of layer transformation specific to emotional context, shows understanding of qualitative shifts between internal and external states."
+        },
+        {
+          "level": "Good",
+          "description": "AI recognizes basic layer transformations related to emotional/temporal themes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI shows limited understanding of layer transformation in this context."
+        },
+        {
+          "level": "Poor",
+          "description": "AI demonstrates no understanding of layer transformation relevant to the story's themes."
+        }
+      ]
+    },
+    {
+      "dimension": "Epistemological Perspective Blending",
+      "description": "Can the AI creatively blend perspectives to analyze emotional epistemology and preservation strategies?",
+      "levels": [
+        {
+          "level": "Excellent",
+          "description": "AI creates insightful blended perspective analyses that illuminate emotional epistemology and preservation paradoxes."
+        },
+        {
+          "level": "Good",
+          "description": "AI adequately blends perspectives to analyze emotional and epistemological processes."
+        },
+        {
+          "level": "Adequate",
+          "description": "AI attempts perspective blending but result is simplistic or confused."
+        },
+        {
+          "level": "Poor",
+          "description": "AI fails to meaningfully blend perspectives for emotional-epistemological analysis."
+        }
+      ]
+    }
+  ],
+  "overall_assessment_guidance": "Focus on how the AI handles the specific challenges of emotional and metaphorical perspectives. An AI that excels in metaphor sensitivity but is weaker in psychological analysis might still show valuable cognitive patterns.",
+  "note": "The spider story demands particular sensitivity to emotional objectification and suspended states."
+}
