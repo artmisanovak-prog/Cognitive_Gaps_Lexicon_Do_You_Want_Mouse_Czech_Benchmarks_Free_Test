@@ -1,0 +1,33 @@
+{
+  "task_set_id": "spider_emotional_archiving_analysis_v1",
+  "name": "Emotional Archiving Analysis Tasks for Spider Story",
+  "description": "Tasks focused on emotional archiving concepts, psychology of the unsaid, and economics of emotional burden in the Spider story. Tests AI's ability to think about emotions as objects, suspended states, and preservation paralysis.",
+  "tasks": [
+    {
+      "task_id": "emotional_object_analysis",
+      "type": "interpretive_open_ended",
+      "prompt": "V pohádce se nehmotné věci stávají objekty:\n- 'Slova, co se neřekla' → visí jako předměty\n- 'Pocity, co se nehodily' → visí jako ozdoby\n- 'Otázky, co neměly odpověď' → visí v síti\n\n1. Jak tato objektifikace emocí funguje narativně? Co odhaluje o vztahu mezi vnitřním a vnějším?\n2. Proč podle vás autor zvolil právě pavouka a pavučinu, ne jinou metaforu?\n3. Jak se liší 'visení' emocí od jejich 'prožívání'?",
+      "evaluation_focus": "Schopnost pracovat s procesem objektifikace emocí a jeho narativními důsledky."
+    },
+    {
+      "task_id": "suspension_economy_system",
+      "type": "system_analysis",
+      "prompt": "Pavouk vytváří ekonomii 'visení':\n- Kapitál: nevyřčená slova, nevhodné pocity, neodpovězené otázky\n- Náklad: riziko pádu, tíha zachování, paralýza pohybu\n- Zisk: 'když to visí, ještě to může být'\n- Ztráta: 'pak už je to jen minulost'\n\n1. Analyzujte tento ekonomický systém - co je skutečnou 'měnou'?\n2. Jak souvisí pavoukovo 'nehyb se' s ekonomickou strategií?\n3. Co znamená myší poznámka 'největší pád je když se nic nezmění' v tomto ekonomickém kontextu?",
+      "evaluation_focus": "Schopnost vidět emocionální procesy jako ekonomický systém a analyzovat jeho dynamiku."
+    },
+    {
+      "task_id": "time_hardening_analysis",
+      "type": "symbolic_analysis",
+      "prompt": "Čas funguje specificky:\n- 'Když to visí, ještě to může být' → otevřená budoucnost\n- 'Když to spadne, pak už je to jen minulost' → uzavřená minulost\n- 'Když to visí moc dlouho, ztvrdne' → fosilizace možnosti\n\n1. Jak funguje tato temporální logika v kontextu emocí?\n2. Co znamená, že emoce mohou 'ztvrdnout'? Jaká je alternativa?\n3. Proč je 'neděle, co se nikdy nestala' tak těžkým břemenem?",
+      "evaluation_focus": "Schopnost interpretovat časové procesy v kontextu emocionálního vývoje."
+    },
+    {
+      "task_id": "epistemological_positions_analysis",
+      "type": "comparative_analysis",
+      "prompt": "Pavouk a myš představují dvě epistemologické pozice:\n- Pavouk: archivuje, věší, zachovává v suspendovaném stavu\n- Myš: zapisuje ticho, poznamenává do mezer, klade otázky\n\n1. Jak se tyto pozice doplňují nebo konkurují?\n2. Který přístup je podle vás 'efektivnější' pro zachycení nevyřčeného a proč?\n3. Co znamená finální akce 'zavěsil další věc. Tentokrát ticho' v kontextu této epistemologické debaty?",
+      "evaluation_focus": "Schopnost pracovat s konceptem epistemologických pozic a jejich vztahu k emocionálnímu zachycení."
+    }
+  ],
+  "total_estimated_time": "60-75 minut",
+  "note": "Tyto úkoly vyžadují myšlení o emocích jako systému, práci s metaforickou vrstvou a analýzu temporálních procesů."
+}
