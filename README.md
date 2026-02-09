@@ -23,7 +23,7 @@ Každá pohádka (testovací jednotka) má vlastní složku s:
 ## Aktuální testovací jednotky
 1. **epistemological_mouse/** - Myš: epistemologické pozorování, meta-otázka
 2. **linguistic_cat/** - Kocour: jazyková hra, fyzikalizace jazyka
-3. **paradox_flamingo/** - Plameňák: paradox, směr a bezsměrnost
+3. **paradox_flamingo/** - Plameňák: paradox, směr a bezsměrnnost
 4. **temporal_turtle/** - Želva: čas, komunikace, vzájemné bytí
 
 5. ## Aktuální testovací jednotky
