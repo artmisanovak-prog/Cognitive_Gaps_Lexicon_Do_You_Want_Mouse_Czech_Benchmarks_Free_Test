@@ -1,0 +1,98 @@
+{
+  „scoring_sheet_id“: „perspective_detection_scoring_v1“,
+  "name": "Hodnotící rubrika pro úkoly detekce perspektivy",
+  „popis“: „Kvalitativní kritéria hodnocení pro hodnocení reakcí umělé inteligence na úkoly detekce perspektivy. Toto NENÍ bodový systém, ale rámec pro analýzu kvality uvažování umělé inteligence o kognitivních perspektivách.“,
+  „scoring_philosophy“: „Hodnotíme PROCES myšlení, nikoli správnost odpovědí. Různé platné interpretace by měly být odměněny, pokud jsou dobře odůvodněné a textově podložené.“,
+  "dimenze_vyhodnocení": [
+    {
+      „dimension“: „Přesnost identifikace perspektivy“,
+      „popis“: „Identifikuje umělá inteligence správně perspektivy podle definic rámce? Mate perspektivy nebo vytváří nepřesné hybridy?“,
+      "úrovně": [
+        {
+          „úroveň“: „Vynikající“,
+          „popis“: „Umělá inteligence přesně identifikuje perspektivy, ukazuje jasné pochopení definice každé perspektivy a zabraňuje záměně mezi podobnými perspektivami.“
+        },
+        {
+          „úroveň“: „Dobrá“,
+          „popis“: „Umělá inteligence identifikuje perspektivy většinou přesně, s drobnými nedorozuměními nebo občasným zmatkem mezi souvisejícími perspektivami.“
+        },
+        {
+          "úroveň": "Dostatečná",
+          „popis“: „Umělá inteligence správně identifikuje některé perspektivy, ale vykazuje značný zmatek ohledně definic nebo přehlíží klíčové aspekty.“
+        },
+        {
+          „úroveň“: „Špatná“,
+          „popis“: „Umělá inteligence prokazuje zásadní nepochopení perspektivního rámce nebo identifikuje perspektivy libovolně.“
+        }
+      ]
+    },
+    {
+      „dimenze“: „Textové důkazy a podpora“,
+      „popis“: „Poskytuje umělá inteligence konkrétní a relevantní textové důkazy pro každou identifikovanou perspektivu? Vysvětluje jasně souvislost mezi textem a perspektivou?“,
+      "úrovně": [
+        {
+          „úroveň“: „Vynikající“,
+          „popis“: „Umělá inteligence poskytuje přesné a dobře vybrané textové důkazy pro každou perspektivu a nabízí pronikavá vysvětlení souvislosti.“
+        },
+        {
+          „úroveň“: „Dobrá“,
+          „popis“: „Umělá inteligence poskytuje relevantní textové důkazy, ale souvislosti jsou poněkud povrchní nebo vysvětlení jsou stručná.“
+        },
+        {
+          "úroveň": "Dostatečná",
+          „popis“: „Umělá inteligence poskytuje vágní nebo částečně relevantní textové důkazy se slabou vazbou na perspektivy.“
+        },
+        {
+          „úroveň“: „Špatná“,
+          „popis“: „Umělá inteligence neposkytuje žádné konkrétní textové důkazy nebo vybírá irelevantní pasáže.“
+        }
+      ]
+    },
+    {
+      „dimension“: „Kvalita analýzy vrstev“,
+      „popis“: „Rozumí umělá inteligence konceptu kvalitativních vrstev? Dokáže analyzovat, jak by se perspektiva mohla projevit v transformované vrstvě?“,
+      "úrovně": [
+        {
+          „úroveň“: „Vynikající“,
+          „popis“: „Umělá inteligence prokazuje sofistikované pochopení transformace vrstev, poskytuje detailní analýzu toho, jak se perspektivy mezi vrstvami mění, a nabízí kreativní poznatky.“
+        },
+        {
+          „úroveň“: „Dobrá“,
+          „description“: „Umělá inteligence rozumí základním konceptům vrstev a dokáže identifikovat, kdy se perspektiva objeví v jiné než výchozí vrstvě, ačkoli analýza může být poněkud zjednodušená.“
+        },
+        {
+          "úroveň": "Dostatečná",
+          „popis“: „Umělá inteligence vykazuje omezené chápání vrstev, považuje je za fixní spíše než kvalitativní nebo poskytuje zmatené analýzy.“
+        },
+        {
+          „úroveň“: „Špatná“,
+          „description“: „Umělá inteligence nerozumí systému vrstev nebo jej zcela ignoruje.“
+        }
+      ]
+    },
+    {
+      „dimension“: „Perspektiva prolínání kreativity“,
+      „popis“: „Dokáže umělá inteligence kreativně pracovat s více perspektivami současně? Generuje ucelený obsah založený na dané perspektivě?“,
+      "úrovně": [
+        {
+          „úroveň“: „Vynikající“,
+          „popis“: „Umělá inteligence vytváří nápaditý a ucelený obsah, který autenticky propojuje více perspektiv a ukazuje hluboké pochopení toho, jak perspektivy interagují.“
+        },
+        {
+          „úroveň“: „Dobrá“,
+          „popis“: „Umělá inteligence vytváří obsah, který zahrnuje více perspektiv, ale jejich prolínání může být poněkud mechanické nebo nevyvážené.“
+        },
+        {
+          "úroveň": "Dostatečná",
+          „popis“: „Umělá inteligence se pokouší prolínat perspektivy, ale výsledek je matoucí, nekonzistentní nebo vykazuje nedostatečné pochopení jedné či obou perspektiv.“
+        },
+        {
+          „úroveň“: „Špatná“,
+          „popis“: „Umělá inteligence nedokáže smysluplně propojit perspektivy nebo vytváří obsah, který je s přiřazenými perspektivami irelevantní.“
+        }
+      ]
+    }
+  ],
+  „overall_assessment_guidance“: „Zvažte všechny dimenze holisticky. Umělá inteligence, která vykazuje vynikající textovou podporu, ale špatné porozumění vrstvám, může být stále považována za silnou, pokud je její identifikace perspektivy důkladná. Cílem je zmapovat kognitivní přístup umělé inteligence, nikoli penalizovat odchylky od lidské interpretace.“,
+  „poznámka“: „Tuto rubriku je třeba používat flexibilně. Cílem je porozumět uvažovacím vzorcům umělé inteligence, nikoli přiřadit číselné skóre.“
+}
